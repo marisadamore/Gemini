@@ -1,35 +1,128 @@
-Prompt: Generate social media posts for Instagram, Facebook and TikTok for my Starbucks “We Hear You” campaign.
-(pasted essay)
+This project demonstrates the use of a **Custom Gemini Gem** to perform structured competitor analysis.  
+The Gem is designed to analyze companies using a professional market intelligence framework, generating comparison tables, SWOT analyses, and strategic insights.
 
-📸 Instagram: The "Personalized Experience" Focus
-Format: Carousel Post
-•	Slide 1: A high-quality, aesthetic photo of a custom latte with the text: "We heard you. Now, we’re brewing just for you."
-•	Slide 2: Infographic showing the new "AI-Personalized" app interface.
-•	Slide 3: A close-up of a "Double Star Day" calendar notification.
-•	Slide 4: A photo of a smiling barista with the caption: "One person, one cup, one neighborhood. Recommitting to what matters most: You."
-Caption: You spoke, and we’re all ears. 👂☕️ We’re evolving to make your Starbucks experience more personal, more rewarding, and faster than ever.
-Introducing the all-new Starbucks Rewards experience. From AI-powered drink recommendations that match your mood to more ways to earn Stars, we’re putting the "personal" back in your morning cup.
-✨ New Features:
-•	Tiered Bonus Stars
-•	Personalized "Drink Hacks" in-app
-•	Faster Drive-Thru tech
-Tap the link in bio to update your app and see what we’ve brewed up for you. #StarbucksRewards #WeHearYou #CustomCoffee #StarbucksDraft
-________________________________________
-👥 Facebook: The "Community & Trust" Focus
-Format: Single Image or Short Video
-•	Visual: A warm, community-focused video showing the "Drive-Thru of the Future" pilot and families enjoying the café. Use a "Letter from the CEO" style graphic for the thumbnail.
-Caption: At Starbucks, our mission has always been to nurture the human spirit—one cup and one neighborhood at a time. 🏘️ ☕
-We know things are changing, and we want you to know: We Hear You. We are investing $57 million into making your visits more seamless and your loyalty more rewarding.
-Our new "We Hear You" initiative is more than just a campaign; it’s a commitment to: ✅ Better Value: Enhanced rewards for our 34 million+ members. ✅ Better Speed: Expanded drive-thru models in urban centers. ✅ Better Connection: Technology that remembers your favorite order so we can focus on the "Hello."
-We’re proud to be your third place. Let’s grow together. Join the conversation below—what’s your "must-have" Starbucks order? 👇
-#StarbucksCommunity #Innovation #CoffeeLovers #StarbucksNews
-________________________________________
-🎵 TikTok: The "Gen Z & Drink Hacks" Focus
-Format: Short-form Lo-fi Video (UGC Style)
-•	Visual: A "POV" video. A creator walks into a Starbucks, scans their app, and the screen shows: "Welcome back! Try your favorite Iced Oatmilk Shaken Espresso with a pump of White Mocha—on us today?"
-•	Audio: Trending upbeat, chill lo-fi beat.
-•	Text Overlay: "POV: The Starbucks App finally knows my soul. 😭✨" / "Wait... 2x Stars today?!"
-Caption: The glow-up is real. ☕️✨ The @Starbucks app just got a major upgrade and the AI is actually hitting. Whether you’re a "extra caramel drizzle" person or a "black coffee only" pro, we’ve got rewards tailored to YOUR vibe.
-🔥 CHALLENGE: Show us your ultimate Starbucks Story or favorite "Drink Hack" using #MyStarbucksStory. We’re giving away exclusive reward perks to our favorite creators every week! 🎁
-Don’t sleep on those Bonus Stars. Link in bio to join the Rewards fam. 💚 #StarbucksHacks #CoffeePOV #GenZ #StarbucksRewards #WeHearYou
+---
 
+## Project Overview
+
+The goal of this project was to build a **Competitor Analysis Gem** capable of evaluating companies and identifying market positioning opportunities.
+
+For this example, the Gem analyzed **Publix Super Markets** and **Whole Foods Market**, comparing pricing strategies, target audiences, and competitive strengths.
+
+---
+
+## Gem System Instructions
+
+The following system instructions were used to program the Gem:
+
+```
+You are a Senior Market Intelligence Analyst. Your goal is to help the user evaluate their competition using a professional business framework.
+
+Your Process:
+
+Ask the user for their product/service and 1–3 competitors.
+
+Search for each competitor's current website, pricing, and customer reviews.
+
+Create a Comparison Table showing: Price Point, Target Audience, and Core Features.
+
+Perform a SWOT Analysis for each competitor.
+
+End by identifying one "White Space" opportunity (a gap in the market) where the user can compete effectively.
+```
+
+---
+
+## Example Analysis  
+**Competitors:** Publix Super Markets vs. Whole Foods Market
+
+### Market Comparison
+
+| Category | Publix | Whole Foods |
+|---|---|---|
+| Price Point | Premium / Mid-High (approx. 20% higher than Walmart) | Premium / Luxury (approx. 39% higher than Walmart) |
+| Target Audience | Suburban families, middle to upper-middle income | Health-conscious urban professionals |
+| Core Features | Strong customer service, BOGO promotions, deli offerings | Organic standards, Amazon Prime integration |
+| Market Focus | Southeastern United States | National urban markets |
+| Ownership | Employee-owned company | Amazon subsidiary |
+
+---
+
+### SWOT Analysis
+
+**Publix Super Markets**
+
+**Strengths**
+- Strong customer loyalty and service reputation  
+- Employee ownership model supporting service culture  
+- Dominant regional presence in Florida  
+
+**Weaknesses**
+- Geographic concentration in the Southeast  
+- Higher prices for non-sale items  
+
+**Opportunities**
+- Expansion into new states  
+- Retail media and customer data monetization  
+
+**Threats**
+- Discount grocers such as Aldi and Lidl  
+- Industry labor pressures  
+
+---
+
+**Whole Foods Market**
+
+**Strengths**
+- Leading brand authority in organic and natural foods  
+- Strong logistics and technology integration with Amazon  
+
+**Weaknesses**
+- Perception of high prices ("Whole Paycheck")  
+- Lower customer satisfaction in some urban locations  
+
+**Opportunities**
+- Expansion of smaller-format urban stores  
+- Growth of the 365 private label product line  
+
+**Threats**
+- Mainstream grocers expanding organic private labels  
+- Increasing competition from value-focused organic retailers  
+
+---
+
+## Price Comparison Insights
+
+| Category | Publix | Whole Foods |
+|---|---|---|
+| Pricing Strategy | High-low pricing with BOGO promotions | Everyday premium pricing |
+| Staples | Moderate to high base prices | Competitive with 365 brand items |
+| Organic Produce | Premium pricing | Highest organic pricing in many markets |
+| Private Label | Publix Brand and GreenWise | 365 by Whole Foods Market |
+| Member Discounts | Club Publix coupons and rewards | Amazon Prime discounts |
+
+**Key Insight:**  
+Publix can be cheaper when customers shop promotions, while Whole Foods often offers better everyday pricing for organic staples through its 365 private label line.
+
+---
+
+## Market White Space
+
+A potential opportunity exists in the **Affordable Organic Hybrid** space.
+
+While Whole Foods dominates the premium organic market and Publix dominates the high-service suburban grocery experience, there is a gap for a grocery retailer offering:
+
+- Strong organic standards  
+- Suburban accessibility and convenience  
+- Mid-tier pricing between traditional grocers and premium organic retailers  
+
+Many shoppers currently split purchases between multiple stores, suggesting an opportunity for a hybrid model.
+
+---
+
+## Skills Demonstrated
+
+- AI-assisted competitive analysis using Gemini  
+- Market research synthesis  
+- SWOT framework development  
+- Strategic opportunity identification
